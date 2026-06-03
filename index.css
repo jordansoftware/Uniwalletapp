@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --font-inter: "Inter", sans-serif;
+}
+
+/* Custom base styles */
+@layer base {
+  body {
+    @apply antialiased text-slate-900 dark:text-slate-100 bg-gray-50 dark:bg-[#121212];
+  }
+}
